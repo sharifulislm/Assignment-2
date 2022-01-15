@@ -296,26 +296,110 @@ small.link-see-more i {
    
 
     /* mobile devices start */
-/* 
+
 
     @media only screen and (max-width:688px) {
 		
 		
-		header nav span{display: none
+		header nav span{display: none;}
 
-		}
-		.container {
-	margin-top: 23px;
-	width: 90%;
-	margin: auto;
-	display: grid;
-	grid-template-columns: 1fr ;
-	justify-items: center;
-	align-items: center;
-}
+	
+		
+            .container {
+            padding: 0 20px;
+                width: 90%;
+               
+                grid-template-columns: 1fr;
+                align-items: center;
+
+           
+            
+            }
+            .content-box h2 
+             {
+                width: 100%;
+            }
+            .content-box p{
+                width: 100%;
+
+            }
+/* respn mobail strat section 2  */
+
+            .ful-contanier{
+                width: 90%;
+                padding: 0 20px;
+                grid-template-columns: repeat(1,1fr);
+            }
+    
+            .box-contanier{
+            
+                
+    
+            }
+            .box-contanier{
+                flex-direction: column;
+                align-items: center;}
+                .box-contanier .img-box-style img{
+                    width: 100%;
+                }
+                .box-contanier .content-box-title {
+                   width: 100%;
+                   
+               }
+               .box-contanier .icon-box {
+                   width: 100%;
+               }
+
+   /* section 3 start  */
+
+   .about-contanier{
+   
+        width: 90%;
+        padding: 0 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about-table{
+        align-items: center;
+        width: 100%;
+
+    }
+    #castom-table{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .about-img{
+        width: 100%;
+    }
+       
+    .player{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+
+    } 
+     .container{
+        width: 90%;
+        padding: 0 20px;
+    } 
+    .players{
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .player{
+        flex-direction: column;
+    }
+    /* blog start */
+    .top-blogs{
+        width: 90%;
+        padding: 0 20px;
+    }
+    footer{
+        width: 100%;
+    }
+    .footer-contanire{
+        width: 100%;
+     
+    }
 
 
-
-
-
-    } */
+    }
