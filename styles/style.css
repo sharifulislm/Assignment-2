@@ -154,9 +154,103 @@ small.link-see-more i {
 
 
 
+  /* --------------------
+   about  section start
+    --------------------  */
+    .title-bar.basic-title-bar {
+        text-align: center;
+      
+        margin: 0;
+        margin-top: 110px;
+        margin-bottom: 50px;
+    }
+
+    /* start table  */
+    #castom-table {
+
+        /* margin: auto; */
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 95%;
+        
+      }
+      
+      #castom-table td, #castom-table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #castom-table tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #castom-table tr:hover {background-color: #ddd;}
+      
+      #castom-table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: rgb(34, 214, 190);
+        color: white;
+      }
+   /* basic table end  */
+
+      .about-contanier {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+    }
+    .title-bar.product-name {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0;
+        color: dimgrey;
+        padding: 0px;
+     
+    }
+
+    /* start img css  */
+    
+.top-players {
+	margin-bottom: 30px;
+}
+
+
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.player {
+	display: flex;
+	align-items: center;
+
+
+}
+
+.player img {
+	width: 56px;
+	height: 56px;
+
+}
+
+.player-name {
+	margin-left: 16px;
+	font-size: 18px;
+}
+
+
+
     /* --------------------
   footer section start
     --------------------  */
+    footer{
+        width: 100%;
+    }
     .footer-contanire {
         margin-top: 100px;
         width: 100%;
@@ -196,3 +290,32 @@ small.link-see-more i {
         border-radius: 50%;
       
     }
+
+
+
+   
+
+    /* mobile devices start */
+/* 
+
+    @media only screen and (max-width:688px) {
+		
+		
+		header nav span{display: none
+
+		}
+		.container {
+	margin-top: 23px;
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr ;
+	justify-items: center;
+	align-items: center;
+}
+
+
+
+
+
+    } */
